@@ -1,6 +1,6 @@
 ![Alert](Alert_images/pwned.png)
 
-Alert is an ACTIVE machine!
+Alert is an **ACTIVE** machine!
 
 This write-up will go live once Alert retires.
 
