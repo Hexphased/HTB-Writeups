@@ -1,5 +1,10 @@
 # Cicada Writeup
 
+![Completion popup](Cicada_images/pwned.png)
+
+Cicada is a beginner-friendly Windows machine that introduces fundamental Active Directory enumeration and exploitation techniques.
+This was one of the first boxes I rooted on Hack The Box, and I learned a lot in the process!
+
 ## User flag
 
 Lets start off with an nmap scan:
@@ -96,8 +101,7 @@ whoami /priv
 ```
 ![Privileges of the user Emily](Cicada_images/emily_privileges.png)
 
-Emily has the SeBackupPrivilege. This can be abused to extract the registry hives, and get the secrets of the domain.
-
+Emily has the SeBackupPrivilege. This privilege can be abused to extract registry hives (SAM and SYSTEM), allowing retrieval of the local administrator’s password hash
 ```
 cd C:\
 mkdir reg
