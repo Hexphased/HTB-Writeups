@@ -110,7 +110,7 @@ I'll keep that in mind. Lets go back to the .zip file from the app_backup.sh fil
 
 ## JWT forgery
 
-Inside the config directory, I found a script that generates an RSA key pair and leaks the large integer e.
+Inside the config directory, I found a script that generates an RSA key pair and leaks the large integer e and a very small q.
 
 ```
 #!/usr/bin/python3
@@ -213,7 +213,7 @@ print(new_token)
 
 ```
 
-The script extracts the public key parameters (n and e) from the JWT, factors n to recover the private key, and then forges a new JWT signed with the recovered key to give myself an admin role on the website.
+The script extracts the public key parameters (n and e) from the JWT, factors n to reconstruct the private key, and then forges a new JWT signed with the recovered key to give myself an admin role on the website.
 
 ![admindashboard](Yummy_images/admindashboard.png)
 
