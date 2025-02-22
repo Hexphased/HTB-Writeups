@@ -1,3 +1,10 @@
-This is a repository for writeups of all HackTheBox machines completed by me and updated each week.
+Welcome to my repository of HackTheBox machine writeups! 🛠️💻
 
-In the future, Im planning to add a section for PicoCTF challenges and TryHackMe writeups.
+I update this repo every Saturday with new writeups of retired HTB machines. Each writeup includes detailed steps, methodologies, and insights gained during the process.
+
+Future Plans:
+
+    Adding PicoCTF challenge writeups
+    Expanding with TryHackMe machine writeups
+
+Stay tuned for more updates!
