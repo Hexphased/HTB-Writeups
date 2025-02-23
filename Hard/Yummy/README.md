@@ -277,7 +277,7 @@ It worked! the shell hit my listener almost immediately.
 
 ## www-data to qa
 
-Browsing through the landing folder as www-shell, there is an app-qatesting folder, which does not bring me anything new...
+Browsing through the landing folder as www-data I found an app-qatesting folder, which does not bring me anything new...
 
 However, I looked through the folder once again, this time with the -la flag in order to see hidden files.
 
@@ -288,7 +288,7 @@ ls -la app-qatesting
 
 Bingo! There is an additional directory called .hg. Now, I have never seen a file with such a name before, so I went forward and researched a little.
 
-My research had brought me to Mercurial. A version control program very similar to git, which uses .hg files! I'll keep that in mind. For now I'll keep looking through the .hg directory.
+My research had brought me to Mercurial. A version control program very to git which uses .hg files! I'll keep that in mind. For now I'll keep looking through the .hg directory.
 
 In the directory app-qatesting/.hg/store/data, there was an app.py.i file. Inside that file, I found the credentials for user qa.
 
