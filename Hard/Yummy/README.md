@@ -39,11 +39,11 @@ Accept-Encoding: gzip, deflate, br
 Cookie: X-AUTH-Token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAbWFpbC5jb20iLCJyb2xlIjoiY3VzdG9tZXJfYWVhYzFmOTIiLCJpYXQiOjE3NDAxMDQ0NjQsImV4cCI6MTc0MDEwODA2NCwiandrIjp7Imt0eSI6IlJTQSIsIm4iOiI5OTkwMDc5Njc2NTEzMjY3NTU2MTA4NTEyODM3MTAwMDk0MzU4MDE4MjE1OTM3OTI0MTUyMzYzNjQyOTUyMDYxMDg2OTcyNDU3NjU3NDI0NTY3ODAzNzM1NjYyNDg1Mzc5NTQ4MjQ2NDgwODgwNzIyNzk5MDI5MTI4MzM0MzA0NjY5MTAxMDg0NDYzODU3Mzc1NTQ4MTAwNTgxNTUwMTcxMDgwNDkzOTIzMDQ4Mzc3MDM2NTYyMTgyNDk4Mzk0MjM3Mzk5NjMxODU3NDU5OTU5NDY0OTgwODU1NDE4NTgyNTY4NTgyNzU1MTIzOTIzNzg5NDMyNDk0MTUwMDEyNDIxMjcxMTI3MDUwMTYxMjg0MDMyNDAwNTc3Mjg2Mjc5MTY0ODE4NTQ5MTI0MDkyMTkxNTMyNzk5MTAyNyIsImUiOjY1NTM3fX0.AyEms2pwIfxil81ciyOrakzgnNlx1a5dgVlj8oZQqBzeNs7skjqR9uZ5ushC54WMScYYoebcHIQSyZOSZ83CEae-YMYuO7j7iUInq9ZYuNguhK4ApPj_bVcu_ZNSUoIrHmWqSJrypDzTMoBsLelTxDSxkVnjm-HMG62wrnEM6rHiDoA; session=eyJfZmxhc2hlcyI6W3siIHQiOlsic3VjY2VzcyIsIlJlc2VydmF0aW9uIGRvd25sb2FkZWQgc3VjY2Vzc2Z1bGx5Il19XX0.Z7fqGQ.IvFJEGEcqZDG5iJ8I0HC1S49bhI
 Connection: keep-alive
 ```
-There is an export parameter with a plain file name. I'll check whether local file inclusion is possible by replacing the filename with '../../../../etc/passwd'
+There is an export parameter with a file name. I'll check whether file disclosure is possible by replacing the filename with '../../../../etc/passwd'
 
 ![lfi](Yummy_images/lfi.png)
 
-LFI confirmed! With this, I'll investigate and see what other interesting files I can find.
+Indeed it is! With this, I'll investigate and see what other interesting files I can find.
 
 ![crontab](Yummy_images/crontab.png)
 
