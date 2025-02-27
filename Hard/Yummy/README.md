@@ -1,11 +1,12 @@
-![yummy](Yummy_images/pwned.png)
+![yummy
+(Yummy_images/pwned.png)
 
 Yummy is a hard difficulty Linux machine that challenges players with a mix of SQL injection, misconfigured file privileges, and version control exploitation.
 The initial foothold involves exploiting an SQL injection vulnerability to achieve arbitrary file write. From there, lateral movement is achieved by leveraging writable scripts and abusing Mercurial hooks.
 Privilege escalation is accomplished through rsync misconfigurations, ultimately leading to root access.
 The box tests knowledge of database exploitation, unintended file writes, and privilege escalation through common misconfigurations
 
-## Local file inclusion
+## File Disclosure
 
 Initial nmap scan reveals only 2 ports open, SSH on port 22 and HTTP on port 80. Pretty straightforward.
 
