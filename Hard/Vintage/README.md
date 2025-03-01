@@ -1,6 +1,6 @@
 ![Vintage](Vintage_images/pwned.png)
 
-Vntage is an **ACTIVE** machine!
+Vintage is an **ACTIVE** machine!
 
 This write-up will go live once Vintage retires.
 
