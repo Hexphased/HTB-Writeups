@@ -45,7 +45,7 @@ I'll use the admin list users function, to see the users on the box and confirm 
 
 It worked! I can see that there are two users. Admin and shirohige. I'll try to get the credentials of shirohige via other functions of the API.
 
-with the function "admin read log", we can read log files everywhere on the machine. However, after trying to abuse path traversal, I discovered that we are not limited to reading only .log files.
+with the function "admin read log", I can read log files everywhere on the machine. However, after trying to abuse path traversal, I discovered that we are not limited to reading only .log files.
 I tried to scout for shirohige's credentials, but found nothing. Instead, I decided to try and hunt for his SSH key, so that I can SSH into the machine without his credentials.
 
 ![ssh](Instant_images/ssh.png)
