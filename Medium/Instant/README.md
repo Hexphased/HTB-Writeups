@@ -33,7 +33,7 @@ mywalletv1.instant.htb
 swagger-ui.instant.htb
 ```
 
-I'll add these two subdomains to my hostfile. I will begin my search with swagger-ui..
+I'll add these two subdomains to my hostfile. I will begin my search with swagger-ui.
 
 ![swaggger-ui](Instant_images/swagger-ui.png)
 
