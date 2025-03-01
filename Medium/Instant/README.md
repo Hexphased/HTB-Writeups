@@ -76,13 +76,13 @@ Inside there are two users. Shirohige and admin, with hashes! However, admin's h
 
 Time to dive back in as shirohige! After a little bit of searching, I've stumbled upon an intersting file.
 
-![Solar](Instant_images/solar.png)
+```
+sessions-backup.dat
+```
 
 Looking at it on my machine, it seems to be encrypted.
 
-![encrypt](Instant_images/encrypt.png)
-
-Maybe there is a tool online that could help me decrypt this? remember, it was in a folder named "Solar-PuTTY".
+Maybe there is a tool online that could help me decrypt this? Remember, it was in a folder named "Solar-PuTTY".
 
 Indeed! There is a tool that could help. I'll try it out against the .dat file.
 
