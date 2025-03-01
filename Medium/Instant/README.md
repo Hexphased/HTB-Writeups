@@ -1,6 +1,6 @@
 ![instant](Instant_images/pwned.png)
 
-Instant is a medium-difficulty box that challenges us with Android app reverse engineering, API exploitation, and credential decryption.
+Instant is a medium-difficulty box that challenges users with Android app reverse engineering, API exploitation, and credential decryption.
 
 ## Summary
 
