@@ -33,13 +33,13 @@ mywalletv1.instant.htb
 swagger-ui.instant.htb
 ```
 
-I'll add these two subdomains to my hostfile. I will begin my search with swagger-ui.
+I'll add these two subdomains to my hostfile and begin my recon with Swagger UI.
 
 ![swaggger-ui](Instant_images/swagger-ui.png)
 
-Its an API endpoint! If the admin token I've found in the apk works, I'll be able to make use of the admin functions.
+Swagger UI provides an interface for interacting with the API’s endpoints. If the admin token I found in the APK is valid, I should be able to leverage the available admin functions.
 
-I'll use the admin list users function, to see the users on the box and confirm that the token indeed works.
+I'll start by using the 'List Users' function to enumerate users on the box and confirm that the token works
 
 ![admin_function](Instant_images/admin_function.png)
 
