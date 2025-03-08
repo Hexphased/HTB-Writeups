@@ -1,5 +1,11 @@
 ![Chemistry](Chemistry_images/pwned.png)
 
+Chemistry was an interesting box that involved exploiting a vulnerable web application handling CIF files.
+By leveraging CVE-2024-23346, I gained initial access through a crafted payload.
+After obtaining database credentials and cracking weakly hashed passwords, I secured SSH access.
+Privilege escalation was achieved by exploiting an outdated aiohttp service (CVE-2024-23334), ultimately leading to root.
+This box highlighted the dangers of insecure file parsing, weak password hashing, and outdated dependencies.
+
 # User flag
 
 Initial nmap scan reveals just two ports. SSH on 22 and a werkzeug server on port 5000.
