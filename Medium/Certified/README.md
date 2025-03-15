@@ -2,7 +2,7 @@
 
 # User flag
 
-![nmap](Cerfified_images/nmap.png)
+![nmap](Certified_images/nmap.png)
 
 Initial nmap scan reveals that this is an Active Directory scenario. Distinguishable by certain ports and services.
 
