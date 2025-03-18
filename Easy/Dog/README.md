@@ -1,4 +1,4 @@
-![Dog](Dog_images/pwned.jpg)
+![Dog](Dog_images/pwned.png)
 
 Dog is an **ACTIVE** machine!
 
